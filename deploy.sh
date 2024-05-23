@@ -2,7 +2,7 @@
 
 cd ~/app
 
-#if not in virtual emvironment 
+#if not in virtual emvironment
 if [ ! -d "venv" ]; then
   python3 -m venv venv
 fi
