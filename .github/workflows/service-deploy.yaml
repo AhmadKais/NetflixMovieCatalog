@@ -6,8 +6,32 @@ on:
       - main
 
 env:
-  EC2_PUBLIC_IP: X.X.X.X  # TODO replace to your EC2 instance public IP
-  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # TODO define this secret in your GitHub repo settings
+  EC2_PUBLIC_IP: 13.60.91.103
+  SSH_PRIVATE_KEY: MIIEowIBAAKCAQEAsv4kPEzgd/v5Pl/tRvz0ZUF/E3e9TGfnmQb/8r3kbDab5lnv
+                   4D3Mgno/cI2onVSXBGKBByMUp+ktQViiQ8ExRwh5N79xy3Q70qUeNzT2QVMarSaG
+                   t/q9NdbXNiuYkfJa81fGZk8K/xqt3haAipeWhBO71RlTPaRpjlTl/bx9p8AGf4bf
+                   orpicmBvNImzLCv8YXZlFCeCl/2oKH+BTpPlz+3LcOhuCwAUKKrKHNXsFPVzs95F
+                   v6A8jOrLlTneeVI2OTtWHKXBxQhtqbWemaVS2ZvYJhP7YWJ+E4jyS8ZcE5dUynhx
+                   nFTfmYr/oAysN+QfGe9EytyoftQF9jvsX2gyFQIDAQABAoIBAClHZv/pEtNY7vAt
+                   m0EF0S8Q3ceVk7htNgIalShcFrPGHEoRb7qdRe7JVpwUb1BpU7KVLQCCXJ8krWUm
+                  lbVedojVMW9j3VB4a9t2bPN6aVhDXCGWgvcnAj/KXjOF9leiNstr8Ltjezu94V8Y
+                  fWh48SNgka7hekr7AcTrW2ca8zeeNF6cTRLmsEruijFE8sMwwy9qK0XW++GMKYW5
+                  NkonpVhnCGDW7hZJ2d2CYcTJi+FbL9u6+sZYBhG+OSmocUMdysOa76wT/f/4y45J
+                  ZYjyfeN+FIvEhLWxwIHsJcYRVBsB1rE1GZQac0CZ11kRGnFIOnhSBnwH+cEbTDna
+                  /e/MKjkCgYEA5rS+DrGy+6OPEAGE0fdbxTSY+h6ggIJXTNHfIiasCSsXHgRlS1dp
+                  Jz65DitNKaR+ZtzV0EbbrWK3A/Vu55HhnOdktFzIbmuHCeVKL5T4JNWwKPKdVIEG
+                  BERYYH4YycwVqffgmIDebSZGj2JWJQmBPj5ExJzl8XA0Bbim7XIDh88CgYEAxp30
+                  jibcmJyiMpaG7bzvRfnb2Q438lLC3LZY5LSPN5mNL/vRpOZWL6BT6y43rulZl2kg
+                  ISqI7kIlxhFipSKaZ1zrv622d/hWALIk+ZCVWdEs07jH6XkIMHCQNM99F5NBANmB
+                  4hkOmDQ9W/fJGbAV6qOPJjRKbQ3LTjy26LmpvNsCgYBx4FNT83iyZzhtoSJLdbqR
+                  q/W6uDVnWW74Fzv5oncWi3N8uJS7TKk12usDSHJtFKnj4iuUA/XZLrnBtXsJyONB
+                  TKJTuNyiTGc6hjhJJlIZ9HRgsejg1lL+9jFdZ8Cakyc6X4U4IZwo6lS338U/wOJP
+                  s/LDzeJee5DiJhQXbki51wKBgGA4ye/MN/bfe1zSvA+VBr55695eGxCUs77FwI8c
+                  Qn4HL/VdJBWlWX+9RqqbO3LLrhHCZkRrHOeAuFgauBWUjAUjaTr1Z377mn6/z1Xw
+                  i8p1oif4TzF251bAUbykANBZEJbeySPGS+HE/Sz/ADgnrJZ+Iq25i40Fr8b5dwuM
+                  VwUdAoGBALgxLo/HqWWECCrxcgFwBG57Hk76Onr1BlP5e3sudV3jiB4KYeF+SkTH
+                  d9iateTbngCTXIUYdAptEdC96ka6xkYqmRZTibIhqKkR6yELqYAXZTTtNdrPnNnR
+                  gNqg+DbRJWtCJCT+X3dHb2UTuYFER04xH9nHI2nFfBeQj5dmN118
 
 jobs:
   Deploy:
