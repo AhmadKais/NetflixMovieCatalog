@@ -9,6 +9,8 @@ fi
 
 source venv/bin/activate
 
+echo "hello Ahmad you have deployed you'r app successfuly"
+
 pip install -r requirements.txt
 
 nohup venv/bin/python app.py &
