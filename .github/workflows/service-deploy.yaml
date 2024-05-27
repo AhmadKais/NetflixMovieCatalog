@@ -24,7 +24,7 @@ jobs:
           
           # Ensure ~/app directory exists on the remote host
           ssh -v -o StrictHostKeyChecking=no -i mykey.pem ubuntu@$EC2_PUBLIC_IP "mkdir -p ~/app"
-
+          #hello
           # Copy all files from the current directory to the EC2 instance under `~/app`
           scp -o StrictHostKeyChecking=no -i mykey.pem -r * ubuntu@$EC2_PUBLIC_IP:~/app
 
