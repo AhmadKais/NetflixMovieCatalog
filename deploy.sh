@@ -5,7 +5,7 @@ if [ ! -d "venv" ]; then
 fi
 
 source venv/bin/activate
-##
+
 pip install -r requirements.txt
 # do this line to show alon
 #nohup python3 app.py
