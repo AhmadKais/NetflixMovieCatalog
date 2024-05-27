@@ -6,6 +6,8 @@ fi
 
 source venv/bin/activate
 
+echo " hello just  checking"
+
 pip install -r requirements.txt
 
 deactivate
