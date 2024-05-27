@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/products_catalog
+cd ~/app/NetflixMovieCatalog
 
 if [ ! -d "venv" ]; then
   python3 -m venv venv
