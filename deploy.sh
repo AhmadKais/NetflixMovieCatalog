@@ -6,7 +6,7 @@ fi
 
 source venv/bin/activate
 
-echo " hello just  checking"
+echo " hello just  checki"
 
 pip install -r requirements.txt
 
