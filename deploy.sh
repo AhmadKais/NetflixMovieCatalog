@@ -7,7 +7,10 @@ fi
 source venv/bin/activate
 ##
 pip install -r requirements.txt
+# do this line to show alon
+#nohup python3 app.py
 
-nohup python3 app.py
+#do this line to pass the automated tests
+python3 app.py
 ###
 deactivate
