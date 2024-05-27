@@ -10,5 +10,5 @@ echo " hello just  checki"
 
 pip install -r requirements.txt
 
-python app.py
+python3 app.py
 #sudo systemctl restart uwsgi
