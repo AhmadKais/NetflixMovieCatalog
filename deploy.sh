@@ -1,4 +1,4 @@
-cd ~/app/NetflixMovieCatalog
+cd ~/app/
 
 if [ ! -d "venv" ]; then
   python3 -m venv venv
